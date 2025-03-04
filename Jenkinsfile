@@ -23,7 +23,7 @@ pipeline {
     environment {
         ROX_API_TOKEN = credentials('ROX_API_TOKEN')
         ROX_CENTRAL_ENDPOINT = credentials('ROX_CENTRAL_ENDPOINT')
-        /* GITOPS_AUTH_PASSWORD = credentials('GITOPS_AUTH_PASSWORD') */
+        GITOPS_AUTH_PASSWORD = credentials('GITOPS_AUTH_PASSWORD')
         /* Uncomment this when using Gitlab */
         /* GITOPS_AUTH_USERNAME = credentials('GITOPS_AUTH_USERNAME') */
         /* Set this to the user for your specific registry */
